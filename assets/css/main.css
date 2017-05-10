@@ -23,7 +23,7 @@
 	}
 
 	body {
-		line-height: 1;
+		line-height: 0;
 	}
 
 	ol, ul {
@@ -59,7 +59,7 @@
 /* Grid */
 
 	.row {
-		border-bottom: solid 1px transparent;
+		border-bottom: solid 0px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -1620,7 +1620,7 @@
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-			border-bottom: solid 2px #fff;
+			border-bottom: solid 0px #fff;
 			display: inline-block;
 			padding-bottom: 1em;
 			position: relative;
@@ -3394,6 +3394,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+        background-image: url("../../images/banner.jpg");
 	}
 
 		#banner h2 {
@@ -3778,11 +3779,12 @@
 
 /* Landing */
 
+        background-image: url("../../images/banner.jpg");
+    }
+
+
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3791,7 +3793,7 @@
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3812,3 +3814,4 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+        
